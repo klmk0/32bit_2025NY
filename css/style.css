@@ -1,0 +1,37 @@
+
+
+
+
+.star {
+    position: absolute;
+    left: 14%;
+    top: 10.4%;
+    height: 60%;
+    width: 58%;
+}
+
+.roompic {
+    height: 100%; 
+    width: 100%;
+    position: absolute;
+}
+
+
+.background {
+    height: 100%; 
+    width: 100%;
+    position: absolute;
+    border: 10px dashed pink;
+    margin: 0 auto;
+    background-color: black;
+    background-image: url("../images/room32draft.png");
+    background-repeat: no-repeat;
+    background-position: center top; 
+    background-size: contain;
+}
+
+
+
+body { background-color: black;
+
+}
