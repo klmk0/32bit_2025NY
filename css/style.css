@@ -1,20 +1,25 @@
-
-
-
-
-.star {
+.room-container {
+    position: relative;
+    width: 100%; /* Full width of the viewport */
+    height: auto; /* Automatically adjust height */
+  }
+  
+  .roompic {
+    display: block;
+    width: 100%; /* Scale to container width */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: contain; /* Ensure no distortion */
+  }
+  
+  .star {
     position: absolute;
-    left: 14%;
-    top: 10.4%;
-    height: 60%;
-    width: 58%;
-}
-
-.roompic {
-    height: 100%; 
-    width: 100%;
-    position: absolute;
-}
+    top: 60%; /* Adjust this value proportionally */
+    left: 15%; /* Adjust this value proportionally */
+    width: 40%; /* Make the star 10% of the roompic’s width */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  
 
 
 .background {
@@ -28,6 +33,7 @@
     background-repeat: no-repeat;
     background-position: center top; 
     background-size: contain;
+    overflow: hidden;
 }
 
 
