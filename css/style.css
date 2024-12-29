@@ -11,14 +11,45 @@
     object-fit: contain; /* Ensure no distortion */
   }
   
-  .star {
+  .desk {
     position: absolute;
-    top: 60%; /* Adjust this value proportionally */
-    left: 15%; /* Adjust this value proportionally */
-    width: 40%; /* Make the star 10% of the roompic’s width */
+    top: 65%; /* Adjust this value proportionally */
+    left: 11%; /* Adjust this value proportionally */
+    width: 35%; /* Make the star 10% of the roompic’s width */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .macoff {
+    position: absolute;
+    top: 55%; /* Adjust this value proportionally */
+    left: 13%; /* Adjust this value proportionally */
+    width: 20%; /* Make the star 10% of the roompic’s width */
     height: auto; /* Maintain aspect ratio */
   }
   
+  .window {
+    position: absolute;
+    top: 24%; /* Adjust this value proportionally */
+    left: 36%; /* Adjust this value proportionally */
+    width: 25%; /* Make the star 10% of the roompic’s width */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .blinds {
+    position: absolute;
+    top: 20%; /* Adjust this value proportionally */
+    left: 32%; /* Adjust this value proportionally */
+    width: 34%; /* Make the star 10% of the roompic’s width */
+    height: 36%; /* Maintain aspect ratio */
+  }
+
+  .lamp {
+    position: absolute;
+    top: 37%; /* Adjust this value proportionally */
+    left: 52%; /* Adjust this value proportionally */
+    width: auto; /* Make the star 10% of the roompic’s width */
+    height: 60%; /* Maintain aspect ratio */
+  }
   
 
 
